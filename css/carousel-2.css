@@ -1,0 +1,67 @@
+.next-section{
+    height: 40%;
+    backface-visibility: hidden;
+    clip-path: polygon(0 10%,100% 0,100% 90%, 0 100%) ;
+    -webkit-clip-path: polygon(0 10%,100% 0,100% 90%, 0 100%) ;
+    margin-top: -15%
+}
+.carousel-item{
+    padding: 15% 15%;
+}
+.heading-tertiary{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    letter-spacing: .5rem;
+    color: #fff
+}
+.pg{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    max-width: 600px;
+    float: right;
+
+    
+}
+
+.view-more{
+    margin-left: 50%;
+    animation: none !important
+}
+#agalaxy{
+    background-image: linear-gradient(to right bottom,
+    rgba(155, 156, 155, 0.70),
+    rgba(86, 88, 87, 0.70)), url(../img/andromeda-bg.jpg);
+    background-size:cover;
+}
+.galaxy-pic{
+    width: 175px;
+    border-radius: 100px;
+    margin: 20px;
+    margin-top: 50px;
+    animation:imgright 1.5s ease-out
+}
+#mgalaxy{
+    background-image: linear-gradient(to right bottom,
+    rgba(155, 156, 155, 0.70),
+    rgba(86, 88, 87, 0.70)), url(../img/milkyway-bg.jpg);
+    background-size:cover;
+}
+#ngc-1055{
+    background-image: linear-gradient(to right bottom,
+    rgba(155, 156, 155, 0.70),
+    rgba(86, 88, 87, 0.70)), url(../img/NGC1055-bg.jpg);
+    background-size:cover;
+}
+
+
+@keyframes imgright {
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem)
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0)
+    }
+}

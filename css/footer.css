@@ -1,0 +1,32 @@
+.footer{
+    background-color: #333;
+    padding: 15rem;
+    margin-top: -10rem;
+    font-size: 1.5rem;
+    text-align: center
+}
+.ul-footer{
+    list-style: none;
+}
+.footer-item{
+    display: inline-block;
+}
+.footer-item:not(:last-child){
+    margin-right: 1.5rem
+}
+.footer-link:link , .footer-link:visited{
+    font-size: 1.6rem;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .6s;
+    border-radius: 4px;
+}
+.footer-link:hover , .footer-link:active{
+    color: #333;
+    font-weight: 500;
+    box-shadow: 0 1rem 2rem #f7f7f780;
+    transform: rotate(3deg) 
+}

@@ -1,0 +1,104 @@
+.popup-1{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    backface-visibility: hidden
+    
+}
+.popup-1:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup-1:target .popup-card-1 {
+    opacity: 1;
+    transform: translate(-50% ,-50%) scale(1);
+}
+.popup-card-1{
+    width: 75%;
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 3px;
+    display: table;
+    overflow: hidden;
+    transform: translate(-50% ,-50%) scale(.5);
+    opacity: 0;
+    transition: all 0.4s;
+    backface-visibility: hidden;
+}
+.popup-left-1{
+    width: 33.3333333333333333333333333333%;
+    display: table-cell
+}
+.popup-right-1{
+    width: 66.6666666666666666666666666667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem;
+}
+.popup-pic{
+    display: block;
+    width: 100%;
+    margin: 1rem
+}
+.popup-text{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    column-count: 2;
+    column-gap: 3rem;
+    column-rule: 1.5px solid #eee;
+    -moz-column-count: 2;
+    -moz-column-gap: 3rem;
+    -moz-column-rule: 1.5px solid #eee;
+    hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+}
+.pic-popup-2{
+    margin-top: 1rem
+}
+.btm-margin{
+    margin-bottom: 1rem;
+}
+.h3a{
+    font-size: 1.8rem;
+    margin-bottom: 1rem
+}
+.popup-close:link, .popup-close:visited{
+    color: #333;
+    text-decoration: none;
+    font-size: 3rem;
+    position: absolute;
+    top: 2.5rem;
+     right: 2.5rem;
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-image: linear-gradient( to right bottom , rgba(255,185,45) , rgba(255,119,48)) ;
+    color: transparent;
+}
+.popup-close:hover{
+    background-image:  linear-gradient( to right bottom , #41295a , #2f0743) ;
+
+}
+.ul-link:link , .ul-link:visited{
+    color: #2998ff !important;
+    background-image: linear-gradient(120deg , transparent 0% , transparent 50% , #2998ff 50%) !important;
+    margin: 1rem 5rem !important;
+}
+.ul-link:hover{
+    color: #fff !important
+}
+.popup-heading{
+    background-image: linear-gradient( to right bottom , #2998ff , #5643fa) !important;
+    margin: 1.5rem 5rem  !important;
+}

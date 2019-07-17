@@ -1,0 +1,172 @@
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,
+      rgba(155, 156, 155, 0.70),
+      rgba(86, 88, 87, 0.70)),
+    url(../img/universe.jpg);
+    background-size: cover;
+    background-position: top; 
+    clip-path: polygon(0 0,100% 0,100% 90%, 0 100%) ;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 90%, 0 100%) ;
+    position: relative;
+    backface-visibility: hidden;
+  }
+  
+  .logo-box{
+
+      left: 2rem;
+      top: 2rem;
+  
+  }
+  .logo {
+      height: 20rem;
+  }
+  
+  
+  
+  .heading-primary{
+  color: #fff;
+  text-transform: uppercase;
+  animation: moveInDown;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  margin-bottom: 6rem;
+  position: relative;
+  }
+  .heading-main{
+  display: block;
+  font-size: 6rem;
+  font-weight: lighter;
+  letter-spacing: 1.67rem;
+  animation-name: moveInLeft;
+  backface-visibility: hidden;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  font-weight:normal ;
+  }
+  
+  .heading-sub{
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2.6rem;
+  margin-left: 0;
+  animation-name: moveInRight;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  }
+  .text-box{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center
+  }
+  @keyframes moveInLeft{
+      0%{
+          opacity: 0;
+          transform: translateX(-10rem)
+      }
+      50%{
+          transform: translateX(10rem);
+      }
+      80%{
+          transform: translateY(-3rem);
+      }
+  
+      100%{
+          opacity: 1;
+          transform: translate(0)
+      }
+  }
+  @keyframes moveInRight{
+      0%{
+          opacity: 0;
+          transform: translateX(10rem)
+      }
+  
+      50%{
+          transform: translateX(-10rem);
+      }
+      85%{
+          transform: translateY(-3rem);
+      }
+      100%{
+          opacity: 1;
+          transform: translate(0)
+      }
+  }
+  .btn ,.btn:link,
+  .btn:visited{
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1.5rem 4rem;
+      display: inline-block;
+      animation-name: moveInUp;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-out;
+      border-radius: 10rem;
+      transition: all 0.2s;
+      backface-visibility: hidden;
+      position: relative;
+      font-size: 1.6rem;
+      border: none;
+      cursor: pointer;
+  }
+  .btn:hover{
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0)
+  }
+  .btn:active{
+      transform: translateY(-1px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .7)
+  }
+  .btn-white{
+      background-color: #fff;
+      color: #777;
+  }
+  @keyframes moveInDown{
+      0%{
+          opacity: 0;
+          transform: translateY(-10rem)
+      }
+      100%{
+          opacity: 1;
+          transform: translate(0)
+      }
+  }
+  @keyframes moveInUp{
+      0%{
+          opacity: 0;
+          transform: translateY(9rem) rotate(0deg);
+      }
+      100%{
+          opacity: 1;
+          transform: translate(0) rotate(359deg)
+      }
+  }
+  .btn::after{
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      border-radius: 10rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .4s
+  }
+  .btn-white::after{
+      background-color: #fff;
+      color: #777;}
+  .btn:hover::after{
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+  }
+  .heading-main{
+      cursor: pointer;
+  }
+  .heading-sub{
+      cursor: pointer;
+  }

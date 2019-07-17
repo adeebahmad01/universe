@@ -1,0 +1,49 @@
+.row-test{
+    max-width: 114rem;
+    margin: 0 auto ;
+}
+.row-test:not(:last-child){
+margin-bottom: 8rem;
+}
+.col-1-of-2{
+    width: 54rem;
+    float: left;
+}
+.col-1-of-2:not(:last-child){
+    margin-right: 6rem;
+}
+.row-test::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-1-of-3{
+    width: 34rem;
+    float: left;
+}
+.col-2-of-3{
+    width: 74rem;
+    float: left;
+    
+}
+.col-1-of-3:not(:last-child){
+    margin-right: 6rem;
+}
+.col-1-of-4{
+    width: 24rem;
+    float: left;
+    border-radius: 10px
+}
+.col-1-of-4:not(:last-child){
+    margin-right: 6rem;
+}
+.col-2-of-4{
+    width: 54rem;
+    background-color: #ffbb0000;
+    float: left;
+}
+.col-3-of-4{
+    width: 84rem;
+    background-color: #fff;
+    float: left;
+}

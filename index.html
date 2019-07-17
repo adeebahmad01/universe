@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./img/favicon.ico"
+      rel="icon"
+      type="favicon"
+      sizes="20*20"
+    />
+
+    <title>Universe | Our Home</title>
+  </head>
+  <body>
+    
+    <div class="nagivation">
+      <input
+        type="checkbox"
+        id="nav-toggle"
+        class="nav-checkbox navigation-checkbox"
+      />
+      <label for="nav-toggle" class="nav-btn"><span class="nav-icon">&nbsp;</span></label>
+      <div class="nav-bg navigation-background">&nbsp;</div>
+      <nav class="navigation-nav">
+        <ul class="nav-list-1">
+          <li class="nav-item-1">
+            <a href="#popup-2" class="nav-link-1"
+              ><span class="nav-span">01</span> About Universe</a
+            >
+          </li>
+          <li class="nav-item-1">
+            <a href="#popup-12" class="nav-link-1"
+              ><span class="nav-span">02</span> Galaxies</a
+            >
+          </li>
+          <li class="nav-item-1">
+            <a href="#popup-13" class="nav-link-1"
+              ><span class="nav-span">03</span> Strange Universal Masses</a
+            >
+          </li>
+          <li class="nav-item-1">
+            <a href="#popup-14" class="nav-link-1"
+              ><span class="nav-span">04</span> Neutron Stars and Nebula</a
+            >
+          </li>
+          <li class="nav-item-1">
+            <a href="#popup-15" class="nav-link-1"
+              ><span class="nav-span">05</span>Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+   
+
+    <header class="header">
+        <div class="logo-box">
+            <img src="./img/my-logo.png" alt="logo" class="logo" />
+          </div>
+      <div class="text-box">
+          
+        <h1 class="heading-primary">
+          <span class="heading-main">The Universe</span>
+          <span class="heading-sub">Is where we exist</span>
+        </h1>
+        <a href="#galaxies" class="btn btn-white">Some Galaxies</a>
+      </div>
+    </header>
+    <main>
+      <section class="section-about" id="exciting">
+        <div class="u-center-text u-margin-bottom-8">
+          <h2 class="heading-secondary">
+            Our Universe is too big and exciting
+          </h2>
+          
+        </div>
+        <div class="row-test">
+          <div class="col-1-of-2" id="aref-1">
+            <h3 class="heading-secondary-sub u-margin-bottom">Universe</h3>
+            <p class="paragraph">
+              The Universe is all of space and time and their contents,
+              including planets, stars, galaxies, and all other forms of matter
+              and energy. The currently estimated size of Universe be 93 billion
+              light years in diameter. In various multiverse hypotheses, a
+              universe is one of many causally disconnected constituent parts of
+              a larger multiverse, which itself comprises all of space and time
+              and its contents.
+            </p>
+            <h3 class="heading-secondary-sub u-margin-bottom">Galaxy</h3>
+            <p class="paragraph">
+             A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter.Galaxies range in size from dwarfs with just a few hundred million (10<sup>8</sup>) stars to giants with one hundred trillion (10<sup>14</sup>) stars, each orbiting its galaxy's center of mass.
+            </p>
+            <a href="#popup-2" class="btn-text" >Learn More &rarr;</a>
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="composition">
+              <abbr title="A beautiful galaxy" class="abbr1"
+                ><img
+                  src="./img/galaxy-pic.jpg"
+                  alt=""
+                  class="composition-photo ph1"
+              /></abbr>
+              <abbr
+                title="Super Massive Black-hole located in the center of galaxy"
+                class="abbr1"
+                ><img
+                  src="./img/black-hole.jpg"
+                  alt=""
+                  class="composition-photo ph2"
+              /></abbr>
+              <abbr title="An odinary Black-hole" class="abbr1"
+                ><img
+                  src="./img/blackhole2.jpg"
+                  alt=""
+                  class="composition-photo ph3"
+              /></abbr>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <section class="next-section" id="galaxies">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="agalaxy">
+            <br />
+            <br />
+            <br />
+
+            <h2 class="heading-tertiary">Andromeda Galaxy</h2>
+            <img src="./img/andromeda.jpg" alt="" class="galaxy-pic" />
+            <p class="pg">
+              The Andromeda Galaxy is also known as Messier 31, M31, or NGC 224
+              and originally the Andromeda Nebula is a spiral galaxy
+              approximately 2.5 million light-years from Earth, and the nearest
+              major galaxy to the Milky Way.The number of stars contained in the
+              Andromeda Galaxy is estimated at one trillion (1×10<sup>12</sup>),
+              or roughly twice the number estimated for the Milky Way.
+            </p>
+            <a href="#popup-10" class="btn btn-white view-more">View More</a>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div class="carousel-item" id="mgalaxy">
+            <br />
+            <br />
+            <br />
+
+            <h2 class="heading-tertiary">Milky Way Galaxy</h2>
+            <img src="./img/milkyway.jpg" alt="" class="galaxy-pic" />
+            <p class="pg">
+              The Milky Way is a barred spiral galaxy with a diameter between
+              150,000 and 200,000 light-years (ly). It is estimated to contain
+              100–400 billion stars and more than 100 billion planets.The Milky
+              Way is visible from Earth as a hazy band of white light, some 30°
+              wide, arching across the night sky.All the individual naked-eye
+              stars in the entire sky are part of the Milky Way.
+            </p>
+            <a href="#popup-8" class="btn btn-white view-more">View More</a>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div class="carousel-item" id="ngc-1055">
+            <br />
+            <br />
+            <br />
+
+            <h2 class="heading-tertiary">NGC-1055 Galaxy</h2>
+            <img src="./img/ngc-1055.jpg" alt="" class="galaxy-pic" />
+            <p class="pg">
+              NGC 1055 is a spiral galaxy located in the constellation Cetus.
+              The galaxy has a prominent nuclear bulge crossed by a wide, dark
+              lane of dust and gas. The spiral arm structure appears to be
+              elevated above the galaxy's plane and obscures the upper half of
+              the bulge.A rough distance estimate for NGC 1055 is 52 million
+              light-years, with a diameter of about 115,800 light-years.
+            </p>
+            <a href="#popup-11" class="btn btn-white view-more">View More</a>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+    <section class="information" id="info-section">
+      <div class="u-center-text u-margin-bottom-8">
+        <h2 class="heading-secondary">
+          Some strange masses of universe
+        </h2>
+      </div>
+      <div class="row-test">
+        <div class="col-1-of-3">
+          <div class="strange1">
+            <div class="card-side-front card-side">
+              <div class="card-picture-1 cp">
+                &nbsp;
+              </div>
+              <h4 class="card-heading">
+                <span class="heading-span heading-span-1">
+                  Supermassive Blackhole</span>
+              </h4>
+              <div class="card-details">
+                <ul class="card-ul">
+                  <li class="card-li">Largest Type of Blackholes</li>
+                  <li class="card-li">Located in Center of Galaxy</li>
+                  <li class="card-li">Gravity collapse in Blackholes</li>
+                  <li class="card-li">
+                    Their mass is 10<sup>5</sup>~10<sup>9</sup> M<sub
+                      >(sun)</sub
+                    >
+                  </li>
+                  <li class="card-li">Blackhole Spwan from dying star</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-side-back card-side">
+              <div class="cta">
+                <div class="more-info">
+                  <p class="card-pg-1">For more Information</p>
+                  <p class="click-card">Click This</p>
+                </div>
+                <a href="#popup-4" class="btn btn-white btn-static">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="strange1">
+            <div class="card-side card-side-front">
+              <div class="card-picture-2 cp">
+                &nbsp;
+              </div>
+              <h4 class="card-heading">
+                <span class="heading-span heading-span-2"
+                  >Super <br />
+                  Nova</span
+                >
+              </h4>
+              <div class="card-details">
+                <ul class="card-ul">
+                  <li class="card-li">Luminous stellar explosion</li>
+                  <li class="card-li">
+                    Sudden re-ignition of nuclear fusion occur
+                  </li>
+
+                  <li class="card-li">Expel masses through speed of light</li>
+                  <li class="card-li">
+                    3-Naked Eye supernova explosions are observed
+                  </li>
+                  <li class="card-li">First discovered supernova was HB9</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="card-side card-side-back card-back1"
+              id="supernova-back"
+            >
+              <div class="cta">
+                <div class="more-info">
+                  <p class="card-pg-1">For more Information</p>
+                  <p class="click-card">Click This</p>
+                </div>
+                <a href="#popup-3" class="btn btn-white btn-static">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="strange1">
+            <div class="card-side-front card-side">
+              <div class="card-picture-3 cp">
+                &nbsp;
+              </div>
+              <h4 class="card-heading">
+                <span class="heading-span heading-span-3"
+                  >White <br />
+                  Dwarf</span
+                >
+              </h4>
+              <div class="card-details">
+                <ul class="card-ul">
+                  <li class="card-li">Stellar core remnant</li>
+                  <li class="card-li">
+                    Composed of electron-degenerate matter
+                  </li>
+                  <li class="card-li">Final evolutionary state of stars</li>
+                  <li class="card-li">
+                    No fusion reaction occur in White Dwarf
+                  </li>
+                  <li class="card-li">It has no source of energy</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-side-back card-side card-back2">
+              <div class="cta">
+                <div class="more-info">
+                  <p class="card-pg-1">For more Information</p>
+                  <p class="click-card">Click This</p>
+                </div>
+                <a href="#popup-5" class="btn btn-white btn-static">Explore</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="" class="btn btn-white btn-static green">Explore More</a>
+    </section>
+    <section class="feature" id="feature">
+      <br />
+      <br />
+      <br />
+      <div class="row-test">
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <img
+              src="./img/neutronstar.jpg"
+              alt="Neutron-Star"
+              class="feature-img"
+            />
+            <hr />
+            <h3 class="f1-hd" id="feature-id">Neutron Star</h3>
+            <p class="f1-pg">
+              A neutron star is the collapsed core of a giant star which before
+              collapse had a total mass of between 10 and 29 solar masses.
+              Neutron stars are the smallest and densest stars.There are thought
+              to be around 100 million neutron stars in the Milky Way.
+            </p>
+            <a href="#popup-1" class="btn btn-white btn-feature">View More</a>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <img src="./img/pulsar.jpg" alt="Pulsar" class="feature-img" />
+            <hr />
+            <h3 class="f1-hd">Pulsar</h3>
+            <p class="f1-pg">
+              A pulsar is a highly magnetized rotating neutron star or white
+              dwarf that emits a beam of electromagnetic radiation. This
+              radiation can be observed only when the beam of emission is
+              pointing toward Earth.The brightest radio pulsar, the Vela Pulsar.
+            </p>
+            <a href="#popup-6" class="btn btn-white btn-feature">View More</a>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <img src="./img/magnetar.jpg" alt="Magnetar" class="feature-img" />
+            <hr />
+            <h3 class="f1-hd">Magnetar</h3>
+            <p class="f1-pg">
+              A magnetar is a type of neutron star believed to have an extremely
+              powerful magnetic field.The magnetic field decay powers the
+              emission of high-energy electromagnetic radiation, particularly
+              X-rays.Magnetic feild of magnetar is
+              ~10<sup>9</sup>-10<sup>11</sup>.
+            </p>
+            <a href="#popup-7" class="btn btn-white btn-feature">View More</a>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <img src="./img/nebula.png" alt="Nebula" class="feature-img" />
+            <hr />
+            <h3 class="f1-hd">Nebula</h3>
+            <p class="f1-pg">
+              A nebula is an interstellar cloud of dust and other ionized
+              gases.The term was used to describe any diffuse astronomical
+              object, including galaxies beyond the Milky Way.Most nebulae are
+              of vast size some are hundreds of light-years in diameter.
+            </p>
+            <a href="#popup-9" class="btn btn-white btn-feature">View More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="grid-test">
+          
+          <div class="row-test">
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-1-of-3">col-1-of-3</div>
+          </div>
+          <div class="row-test">
+            <div class="col-1-of-2">col-1-of-2</div>
+            <div class="col-1-of-2">col-1-of-2</div>
+          </div>
+          <div class="row-test">
+            <div class="col-1-of-3">col-1-of-3</div>
+            <div class="col-2-of-3">col-2-of-3</div>
+          </div>
+          <div class="row-test">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+          </div>
+          <div class="row-test">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-2-of-4">col-2-of-4</div>
+          </div>
+          <div class="row-test">
+            <div class="col-1-of-4">col-1-of-4</div>
+            <div class="col-3-of-4">col-3-of-4</div>
+          </div>
+          
+        </section> -->
+        <div class="popup-1" id="popup-3">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/sn-explosion.jpg" alt="" class="popup-pic  pic-popup" />
+              <img
+                src="./img/sn-exp-2.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#supernova-back" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">SuperNova Explosion</h2>
+              <h3 class="h3a">Exploding Star</h3>
+              <p class="popup-text">
+                At its peak brightness, the optical luminosity of a supernova can be comparable to that of an entire galaxy, before fading over several weeks or months. A supernova is a transient astronomical event, occurring during the last evolutionary stages of a massive star or when a white dwarf is triggered into runaway nuclear fusion. The original star, called the progenitor, either collapses to a neutron star or black hole, or it is completely destroyed.Theoretical studies indicate that most supernovae are triggered by one of two basic mechanisms: the sudden re-ignition of nuclear fusion in a degenerate star or the sudden gravitational collapse of a massive star's core.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="popup-1" id="popup-1">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/Binary-stars.jpg" alt="" class="popup-pic  pic-popup" />
+              <img
+                src="./img/Binary-stars-2.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#feature-id" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">Binary Neutron Stars</h2>
+              <h3 class="h3a">Most Explosive stars</h3>
+              <p class="popup-text">
+                About 5% of all known neutron stars are members of a binary system. The formation and evolution of binary neutron stars can be a complex process. Neutron stars have been observed in binaries with ordinary main-sequence stars, red giants, white dwarfs or other neutron stars. According to modern theories of binary evolution it is expected that neutron stars also exist in binary systems with black hole companions. The merger of binaries containing two neutron stars, or a neutron star and a black hole, are expected to be prime sources for the emission of detectable gravitational waves.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-2">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/popup-universe-2.jpg" alt="" class="popup-pic  pic-popup" />
+              <hr class="hr1">
+              <img
+                src="./img/universe-popup.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#aref-1" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">Composition of Universe</h2>
+              <h3 class="h3a">Hypothetical Dark Matter</h3>
+              <p class="popup-text">
+                  The Universe is composed almost completely of dark energy, dark matter, and ordinary matter. Other contents are electromagnetic radiation and anti-matter.
+                Dark matter is a hypothetical kind of matter that is invisible to the entire electromagnetic spectrum, but which accounts for most of the matter in the Universe. The existence and properties of dark matter are inferred from its gravitational effects on visible matter, radiation, and the large-scale structure of the Universe.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="popup-1" id="popup-4">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/sm-blackhole-1.jpg" alt="" class="popup-pic  pic-popup" />
+              <img
+                src="./img/sm-blackhole-2.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#supernova-back" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">Supermassive Blackhole</h2>
+              <h3 class="h3a">Located in Center of Galaxy</h3>
+              <p class="popup-text">
+                The origin of supermassive black holes remains an open field of research. Astrophysicists agree that once a black hole is in place in the center of a galaxy, it can grow by accretion of matter and by merging with other black holes. There are, however, several hypotheses for the formation mechanisms and initial masses of the progenitors, or "seeds", of supermassive black holes.Gravitation from supermassive black holes in the center of many galaxies is thought to power active objects such as Seyfert galaxies and quasars. An active galactic nucleus is now considered to be a galactic core hosting a massive black hole that is accreting matter and displays a sufficiently strong luminosity. 
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-5">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/wd-popup-1.jpg" alt="" class="popup-pic  pic-popup" />
+              <hr>
+              <img
+                src="./img/wd-popup-2.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#supernova-back" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">White Dwarf</h2>
+              <h3 class="h3a">Final evolutionary state of sun</h3>
+              <p class="popup-text">
+                White dwarfs are thought to be the final evolutionary state of stars whose mass is not high enough to become a neutron star, that of about 10 solar masses. This includes over 97% of the other stars in the Milky Way.Usually, white dwarfs are composed of carbon and oxygen. If the mass of the progenitor is between 8 and 10.5 solar masses (M<sub>☉</sub>), the core temperature will be sufficient to fuse carbon but not neon, in which case an oxygen–neon–magnesium white dwarf may form. Stars of very low mass will not be able to fuse helium, hence, a helium white dwarf may form by mass loss in binary systems.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-6">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/pulsar-popup.jpg" alt="" class="popup-pic  pic-popup" />
+              <hr>
+              <img
+                src="./img/pulsar-popup-2.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#feature-id" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">Pulsar</h2>
+              <h3 class="h3a">Magnetized Rotating Nuetron Star</h3>
+              <p class="popup-text">
+                  The periods of pulsars make them very useful tools for astronomers. Observations of a pulsar in a binary neutron star system were used to indirectly confirm the existence of gravitational radiation. The first extrasolar planets were discovered around a pulsar, PSR B1257+12. Certain types of pulsars rival atomic clocks in their accuracy in keeping time.The events leading to the formation of a pulsar begin when the core of a massive star is compressed during a supernova, which collapses into a neutron star. The neutron star retains most of its angular momentum, and since it has only a tiny fraction of its progenitor's radius ,Pulsar is formed with very high rotation speed.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-7">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="./img/magnetar-popup-1.jpg" alt="" class="popup-pic  pic-popup" />
+              <hr>
+              <img
+                src="./img/magnetar-popup-2.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#feature-id" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">Magnetar</h2>
+              <h3 class="h3a">Highly Magnetized Neutron Star</h3>
+              <p class="popup-text">
+                  Magnetars are characterized by their extremely powerful magnetic fields of ∼10<sup>9</sup> to 10<sup>11</sup> T. These magnetic fields are hundreds of millions of times stronger than any man-made magnet, and quadrillions of times more powerful than the field surrounding Earth.The strong fields of magnetars are understood as resulting from a magnetohydrodynamic dynamo process in the turbulent, extremely dense conducting fluid that exists before the neutron star settles into its equilibrium configuration.When in a supernova, a star collapses to a neutron star, and its magnetic field increases dramatically in strength.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-8">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/milkyway-bg.jpg" alt="" class="popup-pic  pic-popup" />
+              <hr>
+              <img
+                src="./img/milkyway-popup.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#galaxies" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">MilkyWay Galaxy</h2>
+              <h3 class="h3a">Our Home Galaxy</h3>
+              <p class="popup-text">
+                  The Milky Way is the galaxy that contains the Solar System and Earth, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars that cannot be individually distinguished by the naked eye.Stars and gases at a wide range of distances from the Galactic Center orbit at approximately 220 kilometers per second.The Milky Way is visible from Earth as a hazy band of white light, some 30° wide, arching across the night sky.The Milky Way contains between 200 and 400 billion stars and at least 100 billion planets.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-9">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/nebula-popup-1.jpg" alt="" class="popup-pic  pic-popup" />
+              <hr>
+              <img
+                src="./img/nebula-popup-2.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#feature-id" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">Nebula</h2>
+              <h3 class="h3a">Interstellar Cloud Place of star formation</h3>
+              <p class="popup-text">
+                  Originally, the term was used to describe any diffuse astronomical object, including galaxies beyond the Milky Way. The Andromeda Galaxy, for instance, was once referred to as the Andromeda Nebula (and spiral galaxies in general as "spiral nebulae") before the true nature of galaxies was confirmed in the early 20th century by Vesto Slipher, Edwin Hubble and others.Most nebulae are of vast size; some are hundreds of light-years in diameter. A nebula that is barely visible to the human eye from Earth would appear larger, but no brighter, from close by.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-10">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/a-popup-1.jpg" alt="" class="popup-pic  pic-popup" />
+              <hr>
+              <img
+                src="./img/a-popup-2.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#galaxies" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">Andromeda</h2>
+              <h3 class="h3a">Neighbor Galaxy</h3>
+              <p class="popup-text">
+                The Andromeda Galaxy was formed roughly 10 billion years ago from the collision and subsequent merger of smaller protogalaxies.This violent collision formed most of the galaxy's (metal-rich) galactic halo and extended disk. During this epoch, its rate of star formation would have been very high, to the point of becoming a luminous infrared galaxy for roughly 100 million years. Andromeda and the Triangulum Galaxy had a very close passage 2–4 billion years ago.The Milky Way and Andromeda galaxies are expected to collide in ~4.5 billion years, merging to form a giant elliptical galaxy or a large lenticular galaxy.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-11">
+          <div class="popup-card-1">
+            <div class="popup-left-1">
+              <img src="img/NGC1055-popup.jpg" alt="" class="popup-pic  pic-popup" />
+              <hr>
+              <img
+                src="./img/NGC1055-popup-1.jpg"
+                alt=""
+                class="popup-pic pic-popup-2"
+              />
+            </div>
+            <div class="popup-right-1">
+              <a href="#galaxies" class="popup-close">&times;</a>
+              <h2 class="heading-secondary btm-margin">NGC-1055</h2>
+              <h3 class="h3a">Local Group Galaxy</h3>
+              <p class="popup-text">
+                NGC 1055 is an edge-on spiral galaxy located in the constellation Cetus. The galaxy has a prominent nuclear bulge crossed by a wide, knotty, dark lane of dust and gas. The spiral arm structure appears to be elevated above the galaxy's plane and obscures the upper half of the bulge. Discovered on December 19, 1783 by William Herschel from his home in Slough England.
+
+                It is a binary system together with the bright spiral galaxy M77 (NGC 1068). These two are the largest galaxies of a small galaxy group that also includes NGC 1073, and five other small irregular galaxies.
+              </p>
+              <a href="" class="btn btn-white btn-static green">Login Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup-1" id="popup-12">
+          <div class="popup-card-1">
+              <a href="#galaxies" class="popup-close">&times;</a>
+              <h2 class="heading-secondary popup-heading">
+                  Galaxies
+                </h2>
+           <ul>
+             <li><a href="#popup-10" class="nav-link-1 ul-link">Andromeda</a></li>
+             <li><a href="#popup-8" class="nav-link-1 ul-link">MilkyWay Galaxy</a></li>
+             <li><a href="#popup-11" class="nav-link-1 ul-link">NGC-1055</a></li>
+           </ul>
+            
+          </div>
+        </div>
+        <div class="popup-1" id="popup-13">
+          <div class="popup-card-1">
+              <a href="#galaxies" class="popup-close">&times;</a>
+              <h2 class="heading-secondary popup-heading">
+                  Strange Universal Masses
+                </h2>
+           <ul>
+             <li><a href="#popup-4" class="nav-link-1 ul-link">Super Massive Blackhole</a></li>
+             <li><a href="#popup-3" class="nav-link-1 ul-link">SuperNova</a></li>
+             <li><a href="#popup-5" class="nav-link-1 ul-link">White Dwarf</a></li>
+           </ul>
+            
+          </div>
+        </div>
+        <div class="popup-1" id="popup-14">
+          <div class="popup-card-1">
+              <a href="#galaxies" class="popup-close">&times;</a>
+              <h2 class="heading-secondary popup-heading">
+                  Strange Universal Masses
+                </h2>
+           <ul>
+             <li><a href="#popup-1" class="nav-link-1 ul-link">Neutron Star</a></li>
+             <li><a href="#popup-4" class="nav-link-1 ul-link">Pulsar</a></li>
+             <li><a href="#popup-7" class="nav-link-1 ul-link">Magnetar</a></li>
+             <li><a href="#popup-9" class="nav-link-1 ul-link">Nebula</a></li>
+             
+           </ul>
+            
+          </div>
+        </div>
+        <div class="popup-1" id="popup-15">
+          <div class="popup-card-1">
+              <a href="#galaxies" class="popup-close">&times;</a>
+                  <div class="book">
+                    <div class="form-book">
+                      <form action=" " class="form">
+                          <div class="u-center-text u-margin-bottom-1">
+                            <h2 class="heading-secondary">
+                              Login Now!
+                            </h2>
+                            <h3 class="h3a">For more Exciting Infirmation</h3>   
+                          </div>
+                        <div class="form-group">
+                          <input type="text" class="form-input" placeholder="Full Name" required name="Full Name" id="name">
+                          <label for="name" class="form-label">Full Name</label>
+                        </div>
+                        <div class="form-group">
+                          <input type="email" class="form-input" placeholder="Your Email" required name="Email" id="email">
+                          <label for="email" class="form-label">Email Address</label>
+                          <input type="password" class="form-input" placeholder="Password" required name="password" id="password">
+                          <label for="password" class="form-label">Password</label>
+                        </div>
+                        <div>
+                            <div class="login">
+                                <button href="" class="btn btn-white btn-static orange">Login</button>
+                             </div>
+                          <div class="login">
+                            <button href="" class="btn btn-white btn-static blue">Sign up</button>
+                          </div>
+                          
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                
+          </div>
+        </div>
+        <section id="form-section" class="form-section">
+          <div class="row-test">
+            <div class="book">
+              <div class="form-book">
+                <form action=" " class="form">
+                    <div class="u-center-text u-margin-bottom-1">
+                      <h2 class="heading-secondary">
+                        Login Now!
+                      </h2>
+                      <h3 class="h3a">For more Exciting Infirmation</h3>   
+                    </div>
+                  <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Full Name" required name="Full Name" id="name">
+                    <label for="name" class="form-label">Full Name</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-input" placeholder="Your Email" required name="Email" id="email">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="password" class="form-input" placeholder="Password" required name="password" id="password">
+                    <label for="password" class="form-label">Password</label>
+                  </div>
+                  <div>
+                      <div class="login">
+                          <button href="" class="btn btn-white btn-static orange">Login</button>
+                       </div>
+                    <div class="login">
+                      <button href="" class="btn btn-white btn-static blue">Sign up</button>
+                    </div>
+                    
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+          <div class="footer-navigation">
+            <ul class="ul-footer">
+              <li class="footer-item"><a href="https://www.facebook.com/%C2%ADadeeb.ahmad.31542" class="footer-link nav-link-1">Facebook</a></li>
+              <li class="footer-item"><a href="https://www.instagram.com/adeeb_ahmad_01/" class="footer-link nav-link-1">Instagram</a></li>
+              <li class="footer-item"><a href="mailto:adeebahmad0010@gmail.com" class="footer-link nav-link-1">Gmail</a></li>
+            </ul>
+          </div>
+      </footer>
+  </body>
+</html>
